@@ -1,0 +1,108 @@
+/* --- Navbar Container --- */
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #1f2937; /* Dark professional shade */
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* --- Left: Project Name --- */
+nav.navbar .navbar-left {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #10b981; /* Accent color */
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* --- Center: Menu Links --- */
+nav.navbar .navbar-center {
+  display: flex;
+  gap: 20px;
+}
+
+nav.navbar .navbar-center a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav.navbar .navbar-center a:hover {
+  color: #10b981;
+}
+
+/* --- Right: Logout Button --- */
+nav.navbar .navbar-right button {
+  background-color: #ef4444; /* Red logout button */
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+nav.navbar .navbar-right button:hover {
+  background-color: #dc2626;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  nav.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav.navbar .navbar-center {
+    margin: 10px 0;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  nav.navbar .navbar-right {
+    width: 100%;
+  }
+
+  nav.navbar .navbar-right button {
+    width: 100%;
+  }
+}
+
+/* --- Global Card / Job Styles --- */
+.card {
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+}
+
+.bg-fulltime { background-color: #10b981; }
+.bg-immediate { background-color: #3b82f6; }
+
+/* --- Buttons --- */
+.btn {
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover { opacity: 0.85; }
+.btn-success:hover { opacity: 0.85; }
+.btn-warning:hover { opacity: 0.85; }
