@@ -1,0 +1,129 @@
+/* 🔹 PAGE TITLE */
+h3 {
+  color: #1f2937;
+}
+
+/* 🔹 SEARCH BAR */
+input[type="text"] {
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+}
+
+/* 🔹 ADD BUTTON */
+.btn-primary {
+  background-color: #2563eb;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+/* 🔹 FORM CARD */
+.card {
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+/* 🔹 FORM INPUTS */
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+/* 🔹 SUBMIT BUTTON */
+.btn-success {
+  background-color: #16a34a;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.btn-success:hover {
+  background-color: #15803d;
+}
+
+/* 🔹 CANCEL BUTTON */
+.btn-secondary {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* 🔹 JOB CARD */
+.card.p-3 {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card.p-3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* 🔹 JOB TITLE */
+.card h5 {
+  font-weight: bold;
+  color: #2563eb;
+}
+
+/* 🔹 TEXT STYLE */
+.card p {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* 🔹 BUTTON GROUP */
+.d-flex.gap-2 button {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* 🔹 EDIT BUTTON */
+.btn-warning {
+  background-color: #facc15;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #eab308;
+}
+
+/* 🔹 DELETE BUTTON */
+.btn-danger {
+  background-color: #ef4444;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #dc2626;
+}
+
+/* 🔹 NO JOB TEXT */
+.text-center {
+  color: #9ca3af;
+  font-weight: 500;
+}
+
+/* 🔹 RESPONSIVE */
+@media (max-width: 768px) {
+  .card.p-3 {
+    padding: 15px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+}
