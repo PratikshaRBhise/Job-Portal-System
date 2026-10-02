@@ -154,7 +154,28 @@ npm start
 
 Frontend URL: http://localhost:3000
 
-SCREENSHOTS
+## 📸 Screenshots
+
+### Home Page
+![Home Page](Screenshots/home-page.png)
+
+### Login Page
+![Login Page](Screenshots/login-page.png)
+
+### Registration Page
+![Registration Page](Screenshots/registration-page.png)
+
+### Job Seeker Dashboard
+![Job Seeker Dashboard](Screenshots/jobseeker-dashboard.png)
+
+### Apply for Job
+![Apply for Job](Screenshots/apply-for-job.png)
+
+### Recruiter Dashboard
+![Recruiter Dashboard](Screenshots/recruiter-dashboard.png)
+
+### Post Job
+![Post Job](Screenshots/post-job.png)
 
 Home Page
 Screenshots/home-page.png
