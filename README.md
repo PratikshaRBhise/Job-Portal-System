@@ -177,27 +177,6 @@ Frontend URL: http://localhost:3000
 ### Post Job
 ![Post Job](Screenshots/post-job.png)
 
-Home Page
-Screenshots/home-page.png
-
-Login Page
-Screenshots/login-page.png
-
-Registration Page
-Screenshots/registration-page.png
-
-Job Seeker Dashboard
-Screenshots/jobseeker-dashboard.png
-
-Apply for Job
-Screenshots/apply-for-job.png
-
-Recruiter Dashboard
-Screenshots/recruiter-dashboard.png
-
-Post Job
-Screenshots/post-job.png
-
 PROJECT HIGHLIGHTS
 
 • Full-stack web application
